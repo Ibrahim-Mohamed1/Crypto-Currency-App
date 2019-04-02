@@ -1,6 +1,6 @@
 An app created with React.js, JavaScript, MongoDB, Mongoose, Axios, Node.js, JSX, HTML, and CSS to help users quickly track cryptocurrency stocks live whilst keeping up to date with the latest crypto news.
 
-Hosted at: # *Coming Soon*
+Hosted at: **Coming Soon
 
 # Crypto-Currency-App
 
