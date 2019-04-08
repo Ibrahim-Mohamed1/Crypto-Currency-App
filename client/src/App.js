@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavBar from "./NavBar"
 import UserProfile from "./UserProfile"
 import './App.css';
 import CoinInfo from './CoinInfo';
@@ -12,7 +11,6 @@ class App extends Component {
     return (
 
       <div className="AppDiv">
-        <NavBar />
         <UserProfile />
         <Switch>
           <Route exact path="/" component={CoinInfo} />

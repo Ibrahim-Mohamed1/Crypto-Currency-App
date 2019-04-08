@@ -9,7 +9,7 @@ class UserProfile extends Component {
         const convert = parseFloat(this.props.coinPrctg)
         return (
 
-            <div className="UserProfile" style={{ borderRight: "solid 1px white", height: "100%", paddingTop: 20, marginRight: -20, marginTop: -50 }}>
+            <div className="UserProfile" style={{ borderRight: "solid 1px white", height: "100%", paddingTop: 0, marginRight: -20, marginTop: 0 }}>
                 <Ticker />
                 <img style={{ width: "75%", display: 'block', margin: "auto", marginTop: 15 }} src={User} alt="" />
                 <h1 style={{ textAlign: "center" }}><span style={{ color: "Lime" }}> Christian </span></h1>

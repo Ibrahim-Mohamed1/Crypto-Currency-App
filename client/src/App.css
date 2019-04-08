@@ -8,7 +8,6 @@ body {
   }
   .navbar{
     grid-area: n;
-    margin-left:260px
   }
   .CoinInfo{
     grid-area: c;
@@ -16,23 +15,24 @@ body {
   }
   .Footer{
     grid-area: f;
-    margin-left:260px
+    margin-left:250px
   }
   .About{
-    margin-left:260px;
+    margin-left:250px;
     grid-area: a;
   }
   .News{
-    margin-left:240px;
+    margin-left:250px;
     grid-area: s
   }
   .navbar {
     overflow: hidden;
-    background-color: #333, 0;
+    background-color: black 0;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-around;
+    text-align: center;
   }
   
   .navbar a {
@@ -104,7 +104,11 @@ body {
     }
     .navbar{
       grid-area: n;
-      margin-left:0px
+      margin-left:0px;
+      position: fixed;
+      bottom: 0;
+      background-color: black;
+      width: 100%;
     }
     .CoinInfo{
       grid-area: c;
@@ -143,4 +147,10 @@ body {
       grid-area: a;
       /* margin-top: -10% */
     }
+  }
+
+  .myClass {
+    background-color: red;
+    color: white;
+    font-size: 44px;
   }
