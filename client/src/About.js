@@ -39,7 +39,7 @@ const About = () => {
                 <SocialIcon rel="noopener noreferrer" target="_blank" url="http://jaketrent.com" bgColor="black" fgColor="gray" style={{ margin: 10 }} network="github" />
                 <SocialIcon rel="noopener noreferrer" target="_blank" url="http://jaketrent.com" bgColor="black" fgColor="gray" style={{ margin: 10 }} network="linkedin" />
             </div>
-            <p style={{ marginLeft: 10, marginRight: 10, color: "black", textAlign: "center" }}>
+            <p style={{ marginLeft: 10, marginRight: 10, color: "white", textAlign: "center" }}>
                 Aspiring software engineer in love with puzzles and murder mysteries</p>
             <h2 style={{ margin: "5px 10px", display: "inline-block" }}>Built with: <span style={{ fontSize: 15, color:"lime" }}> React, Node.js, MongoDB, Mongoose, Express, HTML, CSS, Javascript, Axios, Chart.js, Chartkick</span></h2>
             <br />
